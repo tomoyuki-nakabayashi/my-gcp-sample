@@ -12,8 +12,16 @@ https://cloud.google.com/speech/docs/getting-started
 
 * ストリーム認識のサンプルを動かしてみる
 
-sudo apt-get install portaudio19-dev  
-sudo apt-get install python-pyaudio  
-git clone https://github.com/sayonari/GoogleSpeechAPI_stream.git  
+音声関係のライブラリをインストール  
+sudo apt-get install portaudio19-dev  
+sudo apt-get install python-pyaudio  
 
-https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/speech/cloud-client
+googleのサンプルを入手  
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git  
+
+認証情報の環境変数を設定する。  
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json  
+
+ストリーミング認識のサンプルを動かす。  
+speech/cloud-client/transcribe_streaming_mic.py
+
