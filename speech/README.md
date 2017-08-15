@@ -25,3 +25,6 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json  
 ストリーミング認識のサンプルを動かす。  
 speech/cloud-client/transcribe_streaming_mic.py
 
+google assistant  
+SDKインストールして、OAuth。GCPコンソールでも設定する。  
+https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk
