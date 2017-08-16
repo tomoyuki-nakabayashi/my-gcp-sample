@@ -27,4 +27,7 @@ speech/cloud-client/transcribe_streaming_mic.py
 
 google assistant  
 SDKインストールして、OAuth。GCPコンソールでも設定する。  
-https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk
+https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk  
+
+手順  
+http://qiita.com/moritalous/items/8de3b4ac073a135731d3
